@@ -1,0 +1,15 @@
+<table>
+    <table border="2px solid">
+        <tr>
+          <th>Product</th>
+          <th>Description</th>
+          <th>price</th>
+        </tr>
+        <tr *ngFor="let i of title">
+          <td>{{i.title}}</td>
+          <td>{{i.description}}</td>
+          <td>{{i.price}}</td>
+          <td><img src="{{i.thumbnail}}" alt=""></td>
+        </tr>
+      </table>
+</table>
